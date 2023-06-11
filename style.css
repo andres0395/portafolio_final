@@ -828,6 +828,9 @@ html{
     display: inline-block;
     margin-right: 20px;
 }
+.main_crud .art2 h2{
+    margin-left: -300px;
+}
 @media screen and (max-width:980px) {
     
     nav{
@@ -863,12 +866,15 @@ html{
         width: 90%;
     }
     .main_crud .art2 h2{
-        margin-left: 50px;
+        margin-left: -60px;
     }
     .main_crud .art1 {
         margin-bottom: 20px;
         width: 90%;
         margin-left: 6%;
+    }
+    .div_tab{
+        margin-left: 70px;
     }
 }
 @media screen and (max-width:700px) {
@@ -876,8 +882,11 @@ html{
         margin-left: 0;
         width: 90%;
     }
+    .div_tab{
+        margin-left: -60px;
+    }
     .main_crud .art2 h2{
-        margin-left: 50px;
+        margin-left: -40px;
     }
     .about .fila{
         display: block;
