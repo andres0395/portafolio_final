@@ -415,8 +415,8 @@
         </section>
     </main>
     <main class="main_crud" style="display: none;">
-        <div>
-
+        <div style="position: relative;">
+            <i class="fa-solid fa-arrow-left-long back_to_crud" style="position: absolute;top: -2px;left: 0;font-size: 25px;color: red;cursor: pointer;"></i>
             <h1>Crud api Rest Fetch</h1>
         </div>
         <section class="crud">
@@ -621,6 +621,10 @@
                         document.querySelectorAll('main')[1].classList.add('mostrar');
                         document.querySelectorAll('main')[2].style.display = '';
                     }
+                }
+                else if(e.target.matches('.back_to_crud')){
+                    document.querySelectorAll('main')[1].classList.remove('mostrar');
+                    document.querySelectorAll('main')[2].style.display = 'none';
                 }
             });
             d.addEventListener('input', e=>{
